@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Park Information</title>
+    <link rel="shortcut icon" type="c-icon" href="images&video/ferris-wheel (1).png">
+    <link rel="stylesheet" href="css/parkinformation1.css">
+
+       <!-- font font-awesome -->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+       <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- header  -->
+     <header class="fix">
+<div class="nav-area"></div>
+<nav class="container-fluid navbar navbar-expand-lg fixed-top navbar-dark bg-color">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="home.html"><img class="logo" src="images&video/navlogo.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Categories
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item active" href="experience.html">Experience</a></li>
+              <li><a class="dropdown-item" href="leisure&dinning.html">Leisure & Dinning</a></li>
+              <li><a class="dropdown-item" href="characters.html">Parks Characters</a></li>
+              <li><a class="dropdown-item" href="WhatsUp.html">Whats Up</a></li>
+            </ul>
+            <li class="nav-item">
+            <a class="nav-link active" href="parkinformation1.html">Park Information</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="BusinessOpportunities.html">Business Opportunities</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="contactus.html">Contact Us</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+
+</header>
+
+
+    <div class="container-fluid banner-img">
+
+        <h1 id="top-text">Park Information</h1>
+      </div>
+    <!-- header  -->
+    
+    
+        <!-- main content  -->
+        <div id="bg-1">
+            <div class="hero">
+              <h1 style="color: transparent;">.</h1>
+              <div class="btn-box">
+                  <button id="btn size"><i class="fa-solid fa-location-dot"></i>Hours & Location</button>
+              </div>
+              <div id="content-1" class="content">
+                  <div class="content-left">
+                      <br><br>
+                      <h5>FunSpot Amusement Park</h5>
+                      <p>Gulistan Society, Quaidabad
+                        Dist Malir, <br> Karachi, 
+                          Pakistan.</p>
+                  </div>
+                  <br>
+                 
+
+                      <table class="table table-success">
+                        <thead>
+                          <tr>
+                            <th scope="col"></th>
+                            <th scope="col">Days</th>
+                            <th scope="col">Timing</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row"></th>
+                            <td>Monday-Thursday-sunday</td>
+                            <td>9:00 a.m. to 10:00 p.m.</td>
+                          </tr>
+                          <tr>
+                            <th scope="row"></th>
+                            <td>Friday</td>
+                            <td>3:00 p.m. to 10:00 p.m.</td>
+                          </tr>
+                        </tbody>
+                      </table>
+              </div>
+
+<br><br><br>
+
+              <div class="btn-box">
+                <button id="btn size"><i class="fa-solid fa-map-location-dot"></i>Park Map</button>
+            </div>
+            
+          <div class="map">
+            <img class="map-img" src="images&video/park map.png" width="60%" height="100%"  alt="map and overview of the park">
+          </div>
+
+
+
+          <div class="btn-box">
+            <button id="btn"><i class="fa-solid fa-circle-info"></i>Park Rulus</button>
+        </div>
+
+        <div class="rules-1">
+            <h1 style="color: #3a1b47;">.</h1>
+            <h5>For your safety and the enjoyment of all visitors, please observe the following park rules:</h5> <br>
+              <ul>
+                <!-- fetching data from json/js -->
+                <li class="rule"></li>
+
+                <script src="js/parkrules.js"></script>
+
+                <br><br><br>
+              </ul>
+              </div>
+              
+
+              <div class="btn-box">
+              <button id="btn"><i class="fa-solid fa-dollar-sign"></i>Pricing</button>
+              </div>
+              <h1 style="color: #3a1b47;">.</h1>
+
+              <div class="wrapper">
+
+                <div class="table basic">
+                  <div class="price-section">
+                    <div class="price-area">
+                      <div class="inner-area">
+                        <span class="text">$</span>
+                        <span class="price">29</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="package-name"></div>
+                  <ul class="features">
+                    <li>
+                      <span class="list-name">20 Rides per Person</span>
+                      <span class="icon check"><i class="fas fa-check"></i></span>
+                    </li>
+                    <li>
+                      <span class="list-name">Free Wifi</span>
+                      <span class="icon check"><i class="fas fa-check"></i></span>
+                    </li>
+                    <li>
+                      <span class="list-name">Private Meeting with All Park Character</span>
+                      <span class="icon cross"><i class="fas fa-times"></i></span>
+                    </li>
+                    <li>
+                      <span class="list-name">Drink & Snacks</span>
+                      <span class="icon cross"><i class="fas fa-times"></i></span>
+                    </li>
+                  </ul>
+                  <div class="btn"><button data-toggle="modal" data-target="#myModal">Purchase</button></div>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="myModal" role="dialog">
+                    <div class="modal-dialog modal-lg">
+                    
+                      <!-- Modal content-->
+                      <div class="modal-content">
+                        <div class="modal-header bg-white">
+                          <h2 class="modal-title text-center">PROCEED TO PAY</h2>
+
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="containerr">
+
+                            <div class="card-container">
+                        
+                                <div class="front">
+                                    <div class="image">
+                                        <img src="images&video/chip.png" alt="">
+                                        <img src="images&video/visa.png" alt="">
+                                    </div>
+                                    <div class="card-number-box">################</div>
+                                    <div class="flexbox">
+                                        <div class="box">
+                                            <span>card holder</span>
+                                            <div class="card-holder-name">full name</div>
+                                        </div>
+                                        <div class="box">
+                                            <span>expires</span>
+                                            <div class="expiration">
+                                                <span class="exp-month">mm</span>
+                                                <span class="exp-year">yy</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        
+                                <div class="back">
+                                    <div class="stripe"></div>
+                                    <div class="box">
+                                        <span>cvv</span>
+                                        <div class="cvv-box"></div>
+                                        <img src="images&video/visa.png" alt="">
+                                    </div>
+                                </div>
+                        
+                            </div>
+                        
+                            <form action="">
+                                <div class="inputBox">
+                                    <span>card number</span>
+                                    <input type="text" maxlength="16" class="card-number-input">
+                                </div>
+                                <div class="inputBox">
+                                    <span>card holder</span>
+                                    <input type="text" class="card-holder-input">
+                                </div>
+                                <div class="flexbox">
+                                    <div class="inputBox">
+                                        <span>expiration mm</span>
+                                        <select name="" id="" class="month-input">
+                                            <option value="month" selected disabled>month</option>
+                                            <option value="01">01</option>
+                                            <option value="02">02</option>
+                                            <option value="03">03</option>
+                                            <option value="04">04</option>
+                                            <option value="05">05</option>
+                                            <option value="06">06</option>
+                                            <option value="07">07</option>
+                                            <option value="08">08</option>
+                                            <option value="09">09</option>
+                                            <option value="10">10</option>
+                                            <option value="11">11</option>
+                                            <option value="12">12</option>
+                                        </select>
+                                    </div>
+                                    <div class="inputBox">
+                                        <span>expiration yy</span>
+                                        <select name="" id="" class="year-input">
+                                            <option value="year" selected disabled>year</option>
+                                            <option value="2021">2021</option>
+                                            <option value="2022">2022</option>
+                                            <option value="2023">2023</option>
+                                            <option value="2024">2024</option>
+                                            <option value="2025">2025</option>
+                                            <option value="2026">2026</option>
+                                            <option value="2027">2027</option>
+                                            <option value="2028">2028</option>
+                                            <option value="2029">2029</option>
+                                            <option value="2030">2030</option>
+                                        </select>
+                                    </div>
+                                    <div class="inputBox">
+                                        <span>cvv</span>
+                                        <input type="text" maxlength="4" class="cvv-input">
+                                    </div>
+                                </div>
+                                <input type="submit" value="submit" class="submit-btn">
+                            </form>
+                        
+                        </div>
+                       
+                      
+                    </div>
+                  </div>
+
+
+          </div>
+                </div>
+
+
+                <div class="table premium">
+                  <div class="ribbon"><span>Recommend</span></div>
+                  <div class="price-section">
+                    <div class="price-area">
+                      <div class="inner-area">
+                        <span class="text">$</span>
+                        <span class="price">59</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="package-name"></div>
+                  <ul class="features">
+                    <li>
+                      <span class="list-name">25 Rides Per Person</span>
+                      <span class="icon check"><i class="fas fa-check"></i></span>
+                    </li>
+                    <li>
+                      <span class="list-name">Free Wifi</span>
+                      <span class="icon check"><i class="fas fa-check"></i></span>
+                    </li>
+                    <li>
+                      <span class="list-name">Private Meeting with All Park Character</span>
+                      <span class="icon check"><i class="fas fa-check"></i></span>
+                    </li>
+                    <li>
+                      <span class="list-name">Drink & Snacks</span>
+                      <span class="icon cross"><i class="fas fa-times"></i></span>
+                    </li>
+                  </ul>
+                  <div class="btn"><button data-toggle="modal" data-target="#myModal">Purchase</button></div>
+
+                    <!-- Modal -->
+                        <div class="modal fade" id="myModal" role="dialog">
+                          <div class="modal-dialog modal-lg">
+                          
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                              <div class="modal-header bg-white">
+                                <h2 class="modal-title text-center">PROCEED TO PAY</h2>
+
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                              </div>
+                              <div class="containerr">
+
+                                  <div class="card-container">
+                              
+                                      <div class="front">
+                                          <div class="image">
+                                              <img src="images&video/chip.png" alt="">
+                                              <img src="images&video/visa.png" alt="">
+                                          </div>
+                                          <div class="card-number-box">################</div>
+                                          <div class="flexbox">
+                                              <div class="box">
+                                                  <span>card holder</span>
+                                                  <div class="card-holder-name">full name</div>
+                                              </div>
+                                              <div class="box">
+                                                  <span>expires</span>
+                                                  <div class="expiration">
+                                                      <span class="exp-month">mm</span>
+                                                      <span class="exp-year">yy</span>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                              
+                                      <div class="back">
+                                          <div class="stripe"></div>
+                                          <div class="box">
+                                              <span>cvv</span>
+                                              <div class="cvv-box"></div>
+                                              <img src="images&video/visa.png" alt="">
+                                          </div>
+                                      </div>
+                              
+                                  </div>
+                              
+                                  <form action="">
+                                      <div class="inputBox">
+                                          <span>card number</span>
+                                          <input type="text" maxlength="16" class="card-number-input">
+                                      </div>
+                                      <div class="inputBox">
+                                          <span>card holder</span>
+                                          <input type="text" class="card-holder-input">
+                                      </div>
+                                      <div class="flexbox">
+                                          <div class="inputBox">
+                                              <span>expiration mm</span>
+                                              <select name="" id="" class="month-input">
+                                                  <option value="month" selected disabled>month</option>
+                                                  <option value="01">01</option>
+                                                  <option value="02">02</option>
+                                                  <option value="03">03</option>
+                                                  <option value="04">04</option>
+                                                  <option value="05">05</option>
+                                                  <option value="06">06</option>
+                                                  <option value="07">07</option>
+                                                  <option value="08">08</option>
+                                                  <option value="09">09</option>
+                                                  <option value="10">10</option>
+                                                  <option value="11">11</option>
+                                                  <option value="12">12</option>
+                                              </select>
+                                          </div>
+                                          <div class="inputBox">
+                                              <span>expiration yy</span>
+                                              <select name="" id="" class="year-input">
+                                                  <option value="year" selected disabled>year</option>
+                                                  <option value="2021">2021</option>
+                                                  <option value="2022">2022</option>
+                                                  <option value="2023">2023</option>
+                                                  <option value="2024">2024</option>
+                                                  <option value="2025">2025</option>
+                                                  <option value="2026">2026</option>
+                                                  <option value="2027">2027</option>
+                                                  <option value="2028">2028</option>
+                                                  <option value="2029">2029</option>
+                                                  <option value="2030">2030</option>
+                                              </select>
+                                          </div>
+                                          <div class="inputBox">
+                                              <span>cvv</span>
+                                              <input type="text" maxlength="4" class="cvv-input">
+                                          </div>
+                                      </div>
+                                      <input type="submit" value="submit" class="submit-btn">
+                                  </form>
+                              
+                              </div>
+                             
+                            
+                          </div>
+                        </div>
+
+
+                </div>
+                </div>
+
+
+                <div class="table ultimate">
+                  <div class="price-section">
+                    <div class="price-area">
+                      <div class="inner-area">
+                        <span class="text">$</span>
+                        <span class="price">99</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="package-name"></div>
+                  <ul class="features">
+                    <li>
+                      <span class="list-name">Unlimited Rides</span>
+                      <span class="icon check"><i class="fas fa-check"></i></span>
+                    </li>
+                    <li>
+                      <span class="list-name">Free Wifi</span>
+                      <span class="icon check"><i class="fas fa-check"></i></span>
+                    </li>
+                    <li>
+                      <span class="list-name">Private Meeting with All Park Character</span>
+                      <span class="icon check"><i class="fas fa-check"></i></span>
+                    </li>
+                    <li>
+                      <span class="list-name">Drink & Snacks</span>
+                      <span class="icon check"><i class="fas fa-check"></i></span>
+                    </li>
+                  </ul>
+
+                  <div class="btn"><button data-toggle="modal" data-target="#myModal">Purchase</button></div>
+
+                      
+                        <!-- Modal -->
+                        <div class="modal fade" id="myModal" role="dialog">
+                          <div class="modal-dialog modal-lg">
+                          
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                              <div class="modal-header bg-white">
+                                <h2 class="modal-title text-center">PROCEED TO PAY</h2>
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                              </div>
+                              <div class="containerr">
+
+                                  <div class="card-container">
+                              
+                                      <div class="front">
+                                          <div class="image">
+                                              <img src="images&video/chip.png" alt="">
+                                              <img src="images&video/visa.png" alt="">
+                                          </div>
+                                          <div class="card-number-box">################</div>
+                                          <div class="flexbox">
+                                              <div class="box">
+                                                  <span>card holder</span>
+                                                  <div class="card-holder-name">full name</div>
+                                              </div>
+                                              <div class="box">
+                                                  <span>expires</span>
+                                                  <div class="expiration">
+                                                      <span class="exp-month">mm</span>
+                                                      <span class="exp-year">yy</span>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                              
+                                      <div class="back">
+                                          <div class="stripe"></div>
+                                          <div class="box">
+                                              <span>cvv</span>
+                                              <div class="cvv-box"></div>
+                                              <img src="images&video/visa.png" alt="">
+                                          </div>
+                                      </div>
+                              
+                                  </div>
+                              
+                                  <form action="">
+                                      <div class="inputBox">
+                                          <span>card number</span>
+                                          <input type="text" maxlength="16" class="card-number-input">
+                                      </div>
+                                      <div class="inputBox">
+                                          <span>card holder</span>
+                                          <input type="text" class="card-holder-input">
+                                      </div>
+                                      <div class="flexbox">
+                                          <div class="inputBox">
+                                              <span>expiration mm</span>
+                                              <select name="" id="" class="month-input">
+                                                  <option value="month" selected disabled>month</option>
+                                                  <option value="01">01</option>
+                                                  <option value="02">02</option>
+                                                  <option value="03">03</option>
+                                                  <option value="04">04</option>
+                                                  <option value="05">05</option>
+                                                  <option value="06">06</option>
+                                                  <option value="07">07</option>
+                                                  <option value="08">08</option>
+                                                  <option value="09">09</option>
+                                                  <option value="10">10</option>
+                                                  <option value="11">11</option>
+                                                  <option value="12">12</option>
+                                              </select>
+                                          </div>
+                                          <div class="inputBox">
+                                              <span>expiration yy</span>
+                                              <select name="" id="" class="year-input">
+                                                  <option value="year" selected disabled>year</option>
+                                                  <option value="2021">2021</option>
+                                                  <option value="2022">2022</option>
+                                                  <option value="2023">2023</option>
+                                                  <option value="2024">2024</option>
+                                                  <option value="2025">2025</option>
+                                                  <option value="2026">2026</option>
+                                                  <option value="2027">2027</option>
+                                                  <option value="2028">2028</option>
+                                                  <option value="2029">2029</option>
+                                                  <option value="2030">2030</option>
+                                              </select>
+                                          </div>
+                                          <div class="inputBox">
+                                              <span>cvv</span>
+                                              <input type="text" maxlength="4" class="cvv-input">
+                                          </div>
+                                      </div>
+                                      <input type="submit" value="submit" class="submit-btn">
+                                  </form>
+                              
+                              </div>
+                             
+                            
+                          </div>
+                        </div>
+
+
+                </div>
+
+              </div>
+
+                
+
+
+         
+
+
+
+
+              </div>
+
+
+
+              
+
+
+
+
+
+
+            </div>
+
+
+
+  <!-- footer  -->
+  <div class="extra">
+    <footer>
+      <div class="container-1">
+          <div class="sec aboutus">
+            <img class="logo-1" src="images&video/footerlogo2.png" alt="">
+              <p>The ‘FUN SPOT’ Most Entertaining Theme Park, is one of the best ideas executed in the amusement & entertainment industry. It has 7 different internationally themed zones which will keep you occupied for the entire day. You will never fall short of excitement or thrills, thanks to the mascots that will make sure you are treated with the best of hospitality. There are zones like thrill rides, 7 wonders of the world, a massive food court and other areas ensuring 360 degrees of sheer entertainment.</p>
+              <ul class="sci">
+                  <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                  <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                  <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                  <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+    
+              </ul>
+          </div>
+          <div class="sec quicklinks">
+              <h2>Quick Links</h2>
+              <ul>
+                  <li><a href="home.html">Home</a></li>
+                  <li><a href="parkinformation1.html">Park Information</a></li>
+                  <li><a href="BusinessOpportunities.html">Business Opportunities</a></li>
+                  <li><a href="contactus.html">Contact Us</a></li>
+              </ul>
+          </div>
+          <div class="sec quicklinks">
+            <h2>Categories</h2>
+            <ul>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="leisure&dinning.html">Leisure & Dinning</a></li>
+                <li><a href="characters.html">Park Characters</a></li>
+                <li><a href="WhatsUp.html">Whats Up</a></li>
+            </ul>
+        </div>
+          
+          <div class="sec contact">
+              <h2>Contact Info</h2>
+              <ul class="info">
+                  <li>
+                      <span><i class="fa-solid fa-location-dot"></i></span>
+                      <span>Gulistan Society, Quaidabad, Dist. Malir Karachi,<br> Pakistan</span>
+                    </li>
+                  <li>
+                      <span><i class="fa-solid fa-phone"></i></i></span>
+                     <p><a href="tel:123456789">03406886905</a><br>
+                      <a href="tel:123456789">03095247848</a></p>
+                  </li>
+                  <li>
+                      <span><i class="fa-solid fa-envelope"></i></span>
+                      <p><a href="mailto:rehmanabdul1445@gmail.com">rehmanabdul1445@gmail.com</a></p>
+                    </li>
+              </ul>
+    
+          </div>
+      </div>
+    </footer>
+    <div class="copyrighttext">
+      <p>Copyright @ 2022 Fun Spot. All Right Reserved</p>
+    </div>
+    </div>
+<!-- footer  -->
+
+
+</body>
+</html>
+
+<script>
+
+  document.querySelector('.card-number-input').oninput = () =>{
+      document.querySelector('.card-number-box').innerText = document.querySelector('.card-number-input').value;
+  }
+  
+  document.querySelector('.card-holder-input').oninput = () =>{
+      document.querySelector('.card-holder-name').innerText = document.querySelector('.card-holder-input').value;
+  }
+  
+  document.querySelector('.month-input').oninput = () =>{
+      document.querySelector('.exp-month').innerText = document.querySelector('.month-input').value;
+  }
+  
+  document.querySelector('.year-input').oninput = () =>{
+      document.querySelector('.exp-year').innerText = document.querySelector('.year-input').value;
+  }
+  
+  document.querySelector('.cvv-input').onmouseenter = () =>{
+      document.querySelector('.front').style.transform = 'perspective(1000px) rotateY(-180deg)';
+      document.querySelector('.back').style.transform = 'perspective(1000px) rotateY(0deg)';
+  }
+  
+  document.querySelector('.cvv-input').onmouseleave = () =>{
+      document.querySelector('.front').style.transform = 'perspective(1000px) rotateY(0deg)';
+      document.querySelector('.back').style.transform = 'perspective(1000px) rotateY(180deg)';
+  }
+  
+  document.querySelector('.cvv-input').oninput = () =>{
+      document.querySelector('.cvv-box').innerText = document.querySelector('.cvv-input').value;
+  }
+  
+  </script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="js/header&footer.js"></script>

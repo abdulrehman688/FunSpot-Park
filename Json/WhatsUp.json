@@ -1,0 +1,48 @@
+[
+    {
+       "date": "8",
+       "month": "Jan",
+       "title": "Bash & Splash",
+       "description": "Park guests of all ages are invited.",
+       "timing": "10:00 am"
+    },
+    {
+        "date": "22",
+        "month": "Feb",
+        "title": "OUTSIDE EVENTS CYCLING SERIES",
+        "description": "Park guests of all ages are invited.",
+        "timing": "10:00 am"
+    },
+    {
+        "date": "8",
+        "month": "Jan",
+        "title": "RETRO BASH",
+        "description": "Park guests of all ages are invited.",
+        "timing": "10:00 am"
+       
+    },
+    {
+        "date": "23",
+       "month": "April",
+       "title": "EARTH DAY",
+       "description": "Park guests of all ages are invited.",
+       "timing": "10:00 am"
+    },
+    {
+        "date": "26",
+       "month": "Aug",
+       "title": "FITNESS IN THE PARK",
+       "description": "Park guests of all ages are invited.",
+       "timing": "10:00 am"
+    },
+    {
+        "date": "11",
+        "month": "Nov",
+        "title": "ART TRAIL",
+        "description": "Park guests of all ages are invited.",
+        "timing": "10:00 am"
+    }
+    
+ ]
+
+ 
