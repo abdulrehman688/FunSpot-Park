@@ -87,13 +87,8 @@ Simply open the project folder in VS Code or any editor.
 
 ## 3️⃣ Run the Website
 
-Open `index.html` directly in your browser  
-OR use VS Code Live Server extension for better development experience.
-
-Example:
-
 ```bash
-http://127.0.0.1:5500/index.html
+https://abdulrehman688.github.io/FunSpot-Park/home.html
 ```
 
 ---
