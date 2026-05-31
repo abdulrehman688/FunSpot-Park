@@ -91,7 +91,7 @@ document.getElementById("footer").innerHTML=
               <li>
                   <span><i class="fa-solid fa-phone"></i></i></span>
                  <p><a href="tel:123456789">03406886905</a><br>
-                  <a href="tel:123456789">03095247848</a></p>
+                  // <a href="tel:123456789">03095247848</a></p>
               </li>
               <li>
                   <span><i class="fa-solid fa-envelope"></i></span>
