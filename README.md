@@ -78,7 +78,7 @@ FunSpot-Park/
 ## 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/FunSpot-Park.git
+git clone https://github.com/abdulrehman688/FunSpot-Park.git
 ```
 
 ## 2️⃣ Open Project
@@ -88,7 +88,7 @@ Simply open the project folder in VS Code or any editor.
 ## 3️⃣ Run the Website
 
 ```bash
-https://abdulrehman688.github.io/FunSpot-Park/home.html
+http://funspot-park.arehman.me
 ```
 
 ---
